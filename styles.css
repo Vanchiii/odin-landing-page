@@ -151,3 +151,16 @@ body {
     font-weight: 800;
     font-size: 20px;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: #1F2937;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footertext {
+    text-align: center;
+    color: white;
+}
