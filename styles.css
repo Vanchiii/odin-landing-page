@@ -69,6 +69,7 @@ body {
 .heroleft p {
     font-size: 18px;
     color: #E5E7EB;
+    text-wrap: wrap;
 }
 
 .signupbtn {
@@ -87,4 +88,43 @@ body {
 .hero img {
     width: 500px;
     height: auto;
+}
+
+/* INFO SECTION */
+
+.infotitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.infotext {
+    font-size: 18px;
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: solid #3882F6;
+    border-radius: 10%;
 }
