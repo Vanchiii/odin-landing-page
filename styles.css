@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-/* HEADER */
+/* HEADER SECTION */
 
 .header {
     display: flex;
@@ -41,7 +41,7 @@ body {
     padding: 0;
 }
 
-/* HERO */
+/* HERO SECTION */
 
 .hero {
     background-color: #1F2937;
@@ -127,4 +127,27 @@ body {
     background-color: white;
     border: solid #3882F6;
     border-radius: 10%;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 0 14rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.quotetext {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+}
+
+.quoteauthor {
+    padding-top: 0.3rem;
+    text-align: end;
+    font-weight: 800;
+    font-size: 20px;
 }
